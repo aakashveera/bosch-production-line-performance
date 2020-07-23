@@ -3,8 +3,11 @@ This repo consists of the solution for the competition Bosch Production Line Per
 
 The dataset is one of the largest datasets on kaggle in terms of features and hence it is processed and used in form of chunks
 
-Matthews correlation coefficient(mcc) is used as the evaluation metric and the mcc obtained using the above notebook is <b>0.36365</b> on private leaderboard and 
+Matthews correlation coefficient(mcc) is used as the evaluation metric and the MCC obtained using the xgboost is <b>0.36365</b> on private leaderboard and 
 <b>0.35107</b> on public leaderboard
+
+MCC obtained using the RandomForest is <b>0.41963</b> on private leaderboard and 
+<b>0.41165</b> on public leaderboard
 
 
 ## Data Description
